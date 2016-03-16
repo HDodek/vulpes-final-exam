@@ -11,6 +11,6 @@ function writeToFile(cb, animals) {
 	}, 2000);
 }
 
-writeToFile(function(fileName, animal) {
+writeToFile(function(fileName) {
 	fs.writeFile('./apple.txt', animals);
 });
